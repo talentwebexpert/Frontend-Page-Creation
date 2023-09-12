@@ -19,21 +19,21 @@
     <!-- Hero Section -->
     <div class="hero-section">
         <div class="slack-profile-picture">
-            <img src="./brilllianx.jpg" alt="brilllianx" >
+            <img src="./brilllianx.jpg" alt="brilllianx" data-testid="slackDisplayImage">
         </div>
         <div class="real-time-data">
-                <li class="data-item" data-testid="currentDayOfTheWeek">
+                <li class="data-item" >
                     <label>Current Day of the Week:</label>
-                    <span id="CurrentDay" ></span>
+                    <span id="CurrentDay" data-testid="currentDayOfTheWeek" ></span>
                 </li>
                 
-                 <li class="data-item" data-testid="currentUTCTime">
+                 <li class="data-item" >
                     <label>Current UTC Time:</label>
-                    <span id="CurrentUTCtime"></span>
+                    <span id="CurrentUTCtime" data-testid="currentUTCTime"></span>
                  </li>
-                <li class="data-item" data-testid="myTrack">
+                <li class="data-item" >
                     <label>Track:</label>
-                    <span id="myTrack"> Frontend</span>
+                    <span id="myTrack" data-testid="myTrack"> Frontend</span>
                 </li>
         </div>
     </div>
@@ -41,8 +41,8 @@
     <!-- Footer -->
     <footer>
         <nav>
-            <div class="github-link" data-testid="githubURL">
-                <button>Click here to access my  <a href="git@github.com:talentwebexpert/Frontend-Page-Creation.git">GitHub</a> Repository </button> 
+            <div class="github-link" >
+                <button>Click here to access my  <a href="git@github.com:talentwebexpert/Frontend-Page-Creation.git" data-testid="githubURL">GitHub</a> Repository </button> 
             </div>
         </nav>
     </footer>
