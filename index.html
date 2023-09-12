@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Slack Profile </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="slack-name">
+            <p>Slack User Name :</p>
+            <h1 class="slack-user-name" data-testid="slackUserName">Brilllianx</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="slack-profile-picture">
+            <img src="./brilllianx.jpg" alt="brilllianx" >
+        </div>
+        <div class="real-time-data">
+                <li class="data-item" data-testid="currentDayOfTheWeek">
+                    <label>Current Day of the Week:</label>
+                    <span id="CurrentDay" ></span>
+                </li>
+                
+                 <li class="data-item" data-testid="currentUTCTime">
+                    <label>Current UTC Time:</label>
+                    <span id="CurrentUTCtime"></span>
+                 </li>
+                <li class="data-item" data-testid="myTrack">
+                    <label>Track:</label>
+                    <span id="myTrack"> Frontend</span>
+                </li>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <div class="github-link" data-testid="githubURL">
+                <button>Click here to access my  <a href="git@github.com:talentwebexpert/Frontend-Page-Creation.git">GitHub</a> Repository </button> 
+            </div>
+        </nav>
+    </footer>
+
+</body>
+</html>

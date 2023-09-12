@@ -1,0 +1,60 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, black, #00aaff);
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+header .slack-name p{
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 12px;
+    margin:0;
+    text-align: center;
+}
+header .slack-name h1{
+    color: white;
+    margin: 0;
+    border-bottom: 3px solid rgba(3, 243, 103,0.05);
+}
+.hero-section{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.hero-section .slack-profile-picture{
+    max-width: 200px;
+    border-radius: 5px;
+}
+.hero-section .real-time-data{
+    max-width: 300px;
+    color: white;
+}
+
+footer{
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 20px;
+
+}
+@media screen and (max-width: 480px)  {
+    .hero-section .slack-profile-picture{
+        max-width: 150px;
+        
+    }
+    .hero-section .real-time-data {
+        font-size: .7em;
+       
+    }
+}
